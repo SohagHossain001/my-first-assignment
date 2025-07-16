@@ -1,0 +1,364 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Navbar Section */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #ddd;
+}
+
+.navbar-logo {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.signup-btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.banner {
+  height: 400px;
+ .banner {
+  height: 400px;
+  background: url('../Assets/hero-bg.png') no-repeat center center / cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  padding: 0 20px;
+}
+
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  padding: 0 20px;
+}
+
+
+.banner-heading {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.banner-btn {
+  padding: 15px 30px;
+  font-size: 18px;
+  background-color: #28a745;
+  border: none;
+  border-radius: 50px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Action Section */
+.action-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 40px;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.action-left {
+  flex: 1 1 400px;
+}
+
+.action-title {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.action-subtitle {
+  font-size: 18px;
+  margin-bottom: 25px;
+  color: #555;
+}
+
+.action-btn {
+  padding: 12px 25px;
+  font-size: 16px;
+  background-color: #ff5722;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.action-right {
+  flex: 1 1 400px;
+  text-align: center;
+}
+
+.action-right img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Productive Users Section */
+.productive-users {
+  background-color: #e9ecef;
+  padding: 60px 40px;
+  text-align: center;
+}
+
+.productive-title {
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+.productive-data-container {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.productive-data {
+  min-width: 150px;
+}
+
+.productive-data h3 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #007bff;
+}
+
+.productive-data p {
+  font-size: 16px;
+  color: #555;
+}
+
+/* Let’s Get In Touch Section */
+.contact-section {
+  display: flex;
+  padding: 60px 40px;
+  gap: 40px;
+  flex-wrap: wrap;
+  background-color: #fff;
+}
+
+.contact-left {
+  flex: 1 1 300px;
+  display: flex;
+  align-items: center;
+}
+
+.contact-left h2 {
+  font-size: 32px;
+}
+
+.contact-right {
+  flex: 2 1 400px;
+}
+
+.contact-right form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-right label {
+  font-weight: 600;
+  font-size: 14px;
+  color: #333;
+}
+
+.contact-right input,
+.contact-right textarea {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: vertical;
+}
+
+.contact-btn {
+  align-self: flex-start;
+  padding: 12px 25px;
+  background-color: #17a2b8;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Users’ Feedback Section (Reviews) */
+.reviews {
+  padding: 60px 40px;
+  background-color: #f1f3f5;
+  text-align: center;
+}
+
+.reviews h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.review-cards-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.review-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 25px;
+  max-width: 320px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.review-card .stars img {
+  width: 24px;
+  height: 24px;
+  margin-right: 3px;
+  display: inline-block;
+}
+
+.review-card h3 {
+  font-size: 22px;
+  margin-bottom: 8px;
+  color: #007bff;
+}
+
+.review-card p {
+  font-size: 16px;
+  color: #555;
+  flex-grow: 1;
+}
+
+.reviewer-info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.reviewer-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.reviewer-info strong {
+  font-size: 16px;
+  color: #333;
+}
+
+.reviewer-info small {
+  font-size: 14px;
+  color: #777;
+}
+
+/* Footer Section */
+.footer {
+  background-color: #222;
+  color: #eee;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.footer h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.footer p {
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #bbb;
+}
+
+.footer-nav a {
+  color: #bbb;
+  margin: 0 15px;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.footer-nav a:hover {
+  color: #fff;
+}
+
+/* Button hover effects for all buttons */
+.btn:hover,
+.btn:focus {
+  filter: brightness(1.15);
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .action-section,
+  .contact-section {
+    flex-direction: column;
+    padding: 40px 20px;
+  }
+
+  .productive-data-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+
+@media (max-width: 950px) {
+  .review-cards-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .banner-heading {
+    font-size: 32px;
+  }
+
+  .banner-btn {
+    padding: 12px 25px;
+    font-size: 16px;
+  }
+
+  .navbar {
+    padding: 15px 20px;
+  }
+}
